@@ -11,7 +11,7 @@
 -- return a query with column 'n' and your result in a column named 'res' (text)
 -- sort results by column 'n' ascending
 
-select n, case
+select n, case 
   when n <= 10 then 'Hardly any'
   when n <= 50 then 'More than a handful!' 
   when n <= 100 then 'Woah that''s a lot of dogs!'

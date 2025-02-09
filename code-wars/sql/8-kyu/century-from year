@@ -13,5 +13,5 @@
 --In SQL, you will be given a table years with a column yr for the year. Return a table with a column century.
 
 
---solution--
+--solution-- 
 select yr, case when yr % 100 = 0 then yr / 100 else (yr / 100) + 1 end as century from years

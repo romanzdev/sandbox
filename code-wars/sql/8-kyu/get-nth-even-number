@@ -8,5 +8,5 @@
 -- 1298734 --> 2597466
 -- The input will not be 0.
 
--- solution
+-- solution 
 select n, (n*2) - 2 as res from ntheven

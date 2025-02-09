@@ -7,5 +7,5 @@
 -- move(3, 6) should equal 15
 
 
--- solution
+-- solution 
 select position + (roll * 2) as res from moves
